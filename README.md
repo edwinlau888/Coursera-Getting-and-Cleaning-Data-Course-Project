@@ -1,7 +1,7 @@
 # Coursera-Getting-and-Cleaning-Data-Course-Project
 Repository for Getting and Cleaning Data Course Project submission - Peer graded Assignment
 
-In this assignment, we are to demonstrates the techniques to collect, work with, and clean a data set. Thsi is a peer graded assignemnt from Getting and Cleaning Data Course. 
+In this assignment, we are to demonstrate the techniques to collect, work with, and clean a data set. Thsi is a peer graded assignemnt from Getting and Cleaning Data Course. 
 The dataset provided :
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
