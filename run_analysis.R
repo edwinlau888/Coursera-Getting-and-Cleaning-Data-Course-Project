@@ -28,11 +28,11 @@ View(subject_train)
 View(x_test)
 View(y_train)
 View(y_test)
+View(x_train)
 
 # Step 1: Merge the test and train dataset
 
 # Merge X datasets
-View(x_train)
 X <- rbind(x_train, x_test)
 
 # Merge Y datasets
@@ -56,7 +56,6 @@ View(MergedDataSet)
 # Step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
 ProcessedDataSet <- MergedDataSet %>% select(subject, code, contains("mean"), contains("std"))
 View(ProcessedDataSet)
-ProcessedDataSet$code <- activities[ProcessedDataSet$code, 2]
 
 # Step 3: Uses descriptive activity names to name the activities in the data set; using activity_labels
 activityLabels <- read.table("UCI HAR Dataset/activity_labels.txt",header = FALSE)
